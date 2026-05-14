@@ -1,0 +1,25 @@
+{
+  "monitors": [
+    {
+      "name": "example-product-price",
+      "url": "https://example.com/product",
+      "selector": ".price",
+      "notify": {
+        "webhook": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
+        "log_file": "./alerts.log"
+      }
+    },
+    {
+      "name": "news-headlines",
+      "url": "https://news.ycombinator.com",
+      "selector": ".titleline > a",
+      "notify": {
+        "command": "echo 'HackerNews updated!'",
+        "log_file": "./alerts.log"
+      }
+    }
+  ],
+  "storage_dir": "./snapshots",
+  "request_timeout": 30,
+  "delay_between_requests": 2
+}

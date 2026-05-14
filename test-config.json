@@ -1,0 +1,15 @@
+{
+  "monitors": [
+    {
+      "name": "httpbin-test",
+      "url": "https://httpbin.org/html",
+      "selector": "h1",
+      "notify": {
+        "log_file": "./test-alerts.log"
+      }
+    }
+  ],
+  "storage_dir": "./test-snapshots",
+  "request_timeout": 15,
+  "delay_between_requests": 1
+}

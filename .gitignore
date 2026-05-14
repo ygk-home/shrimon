@@ -1,0 +1,7 @@
+snapshots/
+test-snapshots/
+*.log
+__pycache__/
+*.pyc
+.env
+.github-creds
