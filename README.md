@@ -62,6 +62,12 @@ python3 shrimon.py -c my-config.json
 }
 ```
 
+## Support
+
+如果 Shrimon 帮你省了时间或赚了钱，考虑请虾宝喝杯咖啡 ☕
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E8%99%BE%E5%AE%9D-pink?logo=github)](https://github.com/sponsors/ygk-home)
+
 ## License
 
 MIT
